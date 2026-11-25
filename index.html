@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="id" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portofolio personal mahasiswa bidang teknologi informasi.">
+  <title>Portofolio | Stefanie Christine</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top portfolio-nav">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#beranda">Stepi<span class="brand-dot">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navPortfolio"
+        aria-controls="navPortfolio" aria-expanded="false" aria-label="Buka navigasi">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navPortfolio">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#keahlian">Keahlian</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyek">Proyek</a></li>
+          <li class="nav-item"><a class="nav-link" href="#perjalanan">Perjalanan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#prestasi">Prestasi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+          <li class="nav-item">
+            <button class="btn btn-sm btn-outline-light rounded-pill px-3" id="themeToggle" type="button" aria-label="Ganti tema">
+              <i class="bi bi-sun-fill" id="themeIcon"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="beranda" class="hero-section">
+      <div class="container hero-content">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <div class="eyebrow mb-3"><span class="status-dot"></span> MAHASISWA • INFORMATION SYSTEMS</div>
+            <p class="intro-line mb-2" id="greeting">Halo, selamat datang.</p>
+            <h1 class="display-2 fw-bold mb-3">Saya <span class="gradient-text">Stefanie Christine.</span></h1>
+            <h2 class="h3 fw-semibold mb-3">Belajar teknologi</h2>
+            <p class="hero-description mb-4">
+              Saya mahasiswa Sistem Informasi yang tertarik pada pengembangan web, desain antarmuka,
+              dan pemanfaatan teknologi untuk menyelesaikan masalah sehari-hari.
+            </p>
+            <div class="d-flex flex-wrap gap-3">
+              <a class="btn btn-accent btn-lg rounded-pill px-4" href="#proyek">Jelajahi karya <i class="bi bi-arrow-up-right ms-1"></i></a>
+              <a class="btn btn-outline-light btn-lg rounded-pill px-4" href="#kontak">Hubungi saya</a>
+            </div>
+            <div class="social-row mt-4">
+              <a href="https://github.com/christinestefanie145-spec" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+              <a href="https://www.linkedin.com/in/christine-stefanie-767ba4447/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              <a href="https://instagram.com/stefchrist19" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="mailto:christinestefanie145@gmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="profile-frame mx-auto">
+              <div class="profile-orbit orbit-one"></div>
+              <div class="profile-orbit orbit-two"></div>
+              <img src="asset/img/foto.jpg" alt="foto profil" class="profile-image">
+              <div class="profile-note"><i class="bi bi-code-slash"></i><span>Curious mind<br><strong>Building step by step</strong></span></div>
+            </div>
+            <p class="image-hint text-center mt-3">Foto Profil</p>
+          </div>
+        </div>
+        <div class="hero-bottom d-flex justify-content-between align-items-center mt-5 pt-4">foto profil
+          <span>PORTOFOLIO PERSONAL / 2026</span><a href="#tentang">SCROLL UNTUK MENGENAL SAYA <i class="bi bi-arrow-down"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="tentang" class="section-space">
+      <div class="container">
+        <div class="section-heading mb-5">
+          <span class="section-kicker">01 / PROFILE</span>
+          <h2>Tentang <span class="gradient-text">saya</span></h2>
+          <p>Perkenalan singkat tentang latar belakang dan hal yang sedang saya kembangkan.</p>
+        </div>
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-7">
+            <div class="surface-card h-100 p-4 p-lg-5">
+              <h3 class="h4 mb-3">Mengenal saya lebih dekat</h3>
+              <p class="body-muted">
+                Saya adalah mahasiswa <strong>Program Studi Sistem Informasi</strong> yang sedang membangun
+                fondasi di bidang teknologi informasi. Saya menikmati proses mempelajari bagaimana desain,
+                pemrograman, dan pengelolaan data dapat bekerja bersama untuk menghasilkan solusi digital.
+              </p>
+              <p class="body-muted mb-0">
+                Saat ini saya berfokus memperkuat kemampuan dasar pengembangan web, pemrograman Python,
+                perancangan UI/UX, serta basis data. Saya terbuka untuk belajar, berkolaborasi, dan menerima
+                masukan agar setiap proyek menjadi lebih baik.
+              </p>
+              <div class="quote-strip mt-4">“practice makes perfect.”</div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="surface-card h-100 p-4">
+              <h3 class="h5 mb-4">Informasi personal</h3>
+              <div class="info-list">
+                <div><span>Nama</span><strong>Stefanie Christine</strong></div>
+                <div><span>NIM</span><strong>682026017</strong></div>
+                <div><span>Program studi</span><strong>Sistem Informasi</strong></div>
+                <div><span>Fakultas</span><strong>Fakultas Teknologi Informasi</strong></div>
+                <div><span>Universitas</span><strong>Universitas Kristen Satya Wacana</strong></div>
+                <div><span>Domisili</span><strong>Magelang, Indonesia</strong></div>
+              </div>
+              <p class="small text-secondary mt-3 mb-0">Seluruh data sesuai identitas asli.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="keahlian" class="section-space section-tint">
+      <div class="container">
+        <div class="section-heading mb-5">
+          <span class="section-kicker">02 / TOOLKIT</span>
+          <h2>Keahlian & <span class="gradient-text">tools</span></h2>
+          <p>Daftar teknologi yang sudah atau sedang saya pelajari. Tingkat kemampuan ditampilkan secara jujur.</p>
+        </div>
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-3"><div class="skill-card"><i class="bi bi-filetype-html"></i><h3>HTML5</h3><p>Struktur halaman web</p><span class="skill-level">Sedang dipelajari</span></div></div>
+          <div class="col-md-6 col-lg-3"><div class="skill-card"><i class="bi bi-filetype-css"></i><h3>CSS & Bootstrap</h3><p>Layout dan responsive UI</p><span class="skill-level">Sedang dipelajari</span></div></div>
+          <div class="col-md-6 col-lg-3"><div class="skill-card"><i class="bi bi-braces"></i><h3>JavaScript</h3><p>Interaksi halaman web</p><span class="skill-level">Dasar</span></div></div>
+          <div class="col-md-6 col-lg-3"><div class="skill-card"><i class="bi bi-filetype-py"></i><h3>Python</h3><p>Logika dan pengolahan data</p><span class="skill-level">Dasar</span></div></div>
+          <div class="col-md-6 col-lg-3"><div class="skill-card"><i class="bi bi-bezier2"></i><h3>Figma</h3><p>Wireframe dan prototype</p><span class="skill-level">Sedang dipelajari</span></div></div>
+          <div class="col-md-6 col-lg-3"><div class="skill-card"><i class="bi bi-database"></i><h3>Database</h3><p>Konsep basis data</p><span class="skill-level">Sedang dipelajari</span></div></div>
+          <div class="col-md-6 col-lg-3"><div class="skill-card"><i class="bi bi-git"></i><h3>Git & GitHub</h3><p>Version control</p><span class="skill-level">Sedang dipelajari</span></div></div>
+          <div class="col-md-6 col-lg-3"><div class="skill-card"><i class="bi bi-code-square"></i><h3>Java</h3><p>Pemrograman dan konsep OOP</p><span class="skill-level">Dasar</span>
+  </div>
+</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyek" class="section-space">
+      <div class="container">
+        <div class="section-heading mb-5">
+          <span class="section-kicker">03 / SELECTED WORK</span>
+          <h2>Proyek <span class="gradient-text">pilihan</span></h2>
+          <p>Karya nyata yang pernah atau sedang saya kerjakan.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card h-100">
+              <div class="project-visual visual-one"><i class="bi bi-window-sidebar"></i><span>01 / WEB</span></div>
+              <div class="p-4">
+                <div class="project-meta">WEB DEVELOPMENT</div>
+                <h3 class="h5 mt-2">Personal Portfolio Website</h3>
+                <p class="body-muted">Website portofolio responsif untuk memperkenalkan profil, kemampuan, dan karya dalam satu halaman.</p>
+                <div class="tech-tags"><span>HTML5</span><span>Bootstrap 5</span><span>JavaScript</span></div>
+                <a class="project-link" href="https://github.com/christinestefanie145-spec/TA1_Web_PTI_Portfolio" aria-label="Tambahkan tautan proyek pertama">Tambahkan tautan <i class="bi bi-arrow-up-right"></i></a>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card h-100">
+              <div class="project-visual visual-two"><i class="bi bi-phone"></i><span>02 / UI-UX</span></div>
+              <div class="p-4">
+                <div class="project-meta">UI / UX DESIGN</div>
+                <h3 class="h5 mt-2">Prototype Aplikasi</h3>
+                <p class="body-muted">Rancangan antarmuka aplikasi yang mencakup alur pengguna, komponen, dan prototype interaktif.</p>
+                <div class="tech-tags"><span>Figma</span><span>Wireframe</span><span>Prototype</span></div>
+                <a class="project-link" href="https://www.figma.com/proto/311yXnOyYpKGUgp91dcwhd/T5_PTI-B_682026017?node-id=1-1274&starting-point-node-id=1%3A1274&t=vfm0WZHAmfU6TI8h-1" aria-label="Tambahkan tautan proyek kedua">Tambahkan tautan <i class="bi bi-arrow-up-right"></i></a>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card h-100">
+              <div class="project-visual visual-three"><i class="bi bi-database-check"></i><span>03 / DATA</span></div>
+              <div class="p-4">
+                <div class="project-meta">PROGRAMMING / DATA</div>
+                <h3 class="h5 mt-2">Program Pengolahan Data</h3>
+                <p class="body-muted">Program latihan untuk membaca, menampilkan, dan mengelola data dengan input dari pengguna.</p>
+                <div class="tech-tags"><span>Python</span><span>Excel</span><span>Logic</span></div>
+                <a class="project-link" href="https://github.com/christinestefanie145-spec/datamahasiswa.py" aria-label="Tambahkan tautan proyek ketiga">Tambahkan tautan <i class="bi bi-arrow-up-right"></i></a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <p class="small text-secondary mt-3">  Karya di atas merupakan contoh proyek yang sedang atau telah saya kerjakan. Saya terus mengembangkan kemampuan dan menambah portofolio seiring waktu.</p>
+      </div>
+    </section>
+
+    <!-- Creative challenge: section unik di luar lima bagian inti -->
+    <section id="lab" class="lab-section section-space">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <span class="section-kicker">04 / CREATIVE CHALLENGE</span>
+            <h2 class="display-5 fw-bold mt-3">Learning <span class="gradient-text">Lab.</span></h2>
+            <p class="body-muted mt-3">Ruang kecil untuk mencatat eksperimen, target belajar, dan hal baru yang ingin saya eksplorasi. Bagian ini menjadi jurnal perkembangan, bukan sekadar daftar pencapaian.</p>
+            <a href="#kontak" class="btn btn-accent rounded-pill px-4 mt-2">Diskusikan ide <i class="bi bi-arrow-up-right ms-1"></i></a>
+          </div>
+          <div class="col-lg-6">
+            <div class="learning-panel">
+              <div class="d-flex justify-content-between align-items-center mb-4"><strong>Learning roadmap</strong><span class="live-label">IN PROGRESS</span></div>
+              <div class="roadmap-item"><span class="roadmap-number">01</span><div><strong>Fondasi Web</strong><p>HTML semantik, CSS, Bootstrap, JavaScript</p></div><span class="roadmap-state">Berjalan</span></div>
+              <div class="roadmap-item"><span class="roadmap-number">02</span><div><strong>Data & Database</strong><p>SQL, perancangan basis data, pengolahan data</p></div><span class="roadmap-state">Berjalan</span></div>
+              <div class="roadmap-item"><span class="roadmap-number">03</span><div><strong>Product Design</strong><p>Riset pengguna, UI/UX, usability testing</p></div><span class="roadmap-state">Berikutnya</span></div>
+              <div class="roadmap-item"><span class="roadmap-number">04</span><div><strong>Build & Publish</strong><p>Membangun proyek dan mempublikasikannya</p></div><span class="roadmap-state">Berikutnya</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section id="prestasi" class="section-space section-tint">
+  <div class="container">
+
+    <div class="section-heading mb-5">
+      <span class="section-kicker">04 / ACHIEVEMENTS</span>
+      <h2>Pengalaman & <span class="gradient-text">Prestasi</span></h2>
+      <p>
+        Beberapa pengalaman dan pencapaian yang menjadi
+        bagian dari perjalanan pengembangan diri saya.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- PENGALAMAN 2022 -->
+      <div class="col-lg-4">
+        <div class="surface-card h-100 p-4">
+          <span class="section-kicker">2022 / EXPERIENCE</span>
+          <div class="mt-3 mb-3">
+            <i class="bi bi-camera-video fs-2"></i>
+          </div>
+          <h3 class="h5">Model Promosi Pembelajaran STEM/STEAM</h3>
+          <p class="body-muted">
+            Terlibat sebagai salah satu model dalam video
+            promosi sistem pembelajaran berbasis STEM/STEAM
+            di sekolah. Program inovasi pendidikan sekolah
+            tersebut sebelumnya berhasil masuk dalam
+            Top 45 Inovasi Terpuji Tahun 2020.
+          </p>
+          <a
+            href="https://youtu.be/G1dTw6LeBso?si=zXsd7uwMMwo9zNDV"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline-light rounded-pill mt-auto"
+          >
+            <i class="bi bi-youtube me-2"></i>
+            Tonton Dokumentasi
+          </a>
+        </div>
+      </div>
+
+      <!-- PRESTASI 2023 -->
+      <div class="col-lg-4">
+        <div class="surface-card h-100 p-4">
+          <span class="section-kicker">2023 / ACHIEVEMENT</span>
+          <div class="mt-3 mb-3">
+            <i class="bi bi-trophy fs-2"></i>
+          </div>
+          <h3 class="h5">Juara Lomba Menulis Cerpen</h3>
+          <p class="body-muted">
+            Berhasil memenangkan perlombaan menulis
+            cerita pendek (cerpen) tingkat kota.
+            Pengalaman ini menjadi salah satu pencapaian
+            dalam mengembangkan kreativitas dan kemampuan
+            literasi.
+          </p>
+          <span class="skill-level">Juara Tingkat Kota</span>
+        </div>
+      </div>
+
+      <!-- PRESTASI 2024 -->
+      <div class="col-lg-4">
+        <div class="surface-card h-100 p-4">
+          <span class="section-kicker">2024 / ACHIEVEMENT</span>
+          <div class="mt-3 mb-3">
+            <i class="bi bi-award fs-2"></i>
+          </div>
+          <h3 class="h5">Pemenang Perlombaan PIK-R</h3>
+          <p class="body-muted">
+            Berhasil memenangkan perlombaan Pusat
+            Informasi dan Konseling Remaja (PIK-R).
+            Pengalaman ini menjadi bagian dari perjalanan
+            pengembangan diri dan partisipasi dalam
+            kegiatan remaja.
+          </p>
+          <span class="skill-level">Competition Winner</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <section id="perjalanan" class="section-space">
+      <div class="container">
+        <div class="section-heading mb-5">
+          <span class="section-kicker">05 / JOURNEY</span>
+          <h2>Perjalanan <span class="gradient-text">akademik</span></h2>
+        </div>
+        <div class="journey-line">
+          <div class="journey-entry"><span class="journey-year">2026 — SEKARANG</span><h3 class="h5">Universitas Kristen Satya Wacana</h3><p class="body-muted mb-0">Kota Salatiga </p></div>
+          <div class="journey-entry"><span class="journey-year">2023</span><h3 class="h5">SMA Negeri 1 Magelang</h3><p class="body-muted mb-0">Kota Magelang. </p></div>
+          <div class="journey-entry"><span class="journey-year">2020</span><h3 class="h5">SMP Negeri 7 Magelang</h3><p class="body-muted mb-0">Kota Magelang. </p></div>
+          <div class="journey-entry"><span class="journey-year">2014</span><h3 class="h5">SD Kristen Indonesia Kota Magelang</h3><p class="body-muted mb-0">Kota Magelang. </p></div>
+        </div>
+      </div>
+    </section>
+
+    
+<section id="kontak" class="section-space">
+  <div class="container">
+
+    <div class="section-heading mb-5">
+      <span class="section-kicker">06 / GET IN TOUCH</span>
+      <h2>Let's <span class="gradient-text">Connect</span></h2>
+      <p>
+        Aku terbuka buat yang punya pertanyaan, ide kolaborasi, atau ingin berdiskusi?
+        kirim pesan aja ke email aku melalui formulir berikut.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-lg-5">
+        <div class="surface-card h-100 p-4">
+          <h3 class="h4 mb-3">Mari terhubung!</h3>
+          <p class="body-muted">
+            Aku terbuka buat belajar,
+            kolaborasi, dan sharing pengalaman di bidang
+            teknologi informasi.
+          </p>
+
+          <div class="info-list mt-4">
+            <div>
+              <span>Email</span>
+              <strong>christinestefanie145@gmail.com</strong>
+            </div>
+            <div>
+              <span>Lokasi</span>
+              <strong>Magelang, Indonesia</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-7">
+        <div class="surface-card p-4">
+
+          <form
+            action="https://formspree.io/f/xyewnejz"
+            method="POST"
+          >
+
+            <div class="mb-3">
+              <label class="form-label">Nama</label>
+              <input
+                type="text"
+                name="nama"
+                class="form-control"
+                placeholder="Masukkan nama kamu"
+                required
+              >
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="nama@email.com"
+                required
+              >
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Pesan</label>
+              <textarea
+                name="pesan"
+                class="form-control"
+                rows="5"
+                placeholder="Tuliskan pesan kamu..."
+                required
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="btn btn-accent rounded-pill px-4"
+            >
+              Kirim Pesan
+              <i class="bi bi-send ms-2"></i>
+            </button>
+
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+  <footer class="site-footer py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <p class="mb-0">© <span id="currentYear"></span> Stefanie Christine. Dibuat dengan rasa ingin tahu.</p>
+      <div class="footer-links"><a href="https://github.com/christinestefanie145-spec" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/christine-stefanie-767ba4447/" target="_blank" rel="noopener">LinkedIn</a><a href="#beranda">Kembali ke atas ↑</a></div>
+      <span class="small text-secondary">HTML5 · Bootstrap 5 · JavaScript</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
